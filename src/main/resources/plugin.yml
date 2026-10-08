@@ -1,0 +1,22 @@
+name: CAAVPlugin
+main: com.caav.CAAVPlugin
+version: 1.0.0
+author: CAAV
+description: Area protection and custom villager trading for Minecraft 1.12.2
+commands:
+  caav:
+    description: Show CAAV commands
+    usage: /caav
+  area:
+    description: Area protection tools
+    usage: /area edit
+  vnpc:
+    description: Custom villager trading
+    usage: /vnpc <create|edit|claim>
+permissions:
+  caav.admin:
+    description: Manage protected areas and custom villagers
+    default: op
+  caav.use:
+    description: Use CAAV features
+    default: true
